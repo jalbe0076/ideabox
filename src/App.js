@@ -10,7 +10,8 @@ function App() {
 
   return (
     <main>
-      <Ideas />
+      <h1>Ideabox</h1>
+      <Ideas ideas={dummyIdeas}/>
     </main>
   );
 }
