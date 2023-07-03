@@ -1,4 +1,5 @@
 import './App.css';
+import Ideas from './components/ideas';
 
 function App() {
   const dummyIdeas = [
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <main>
-
+      <Ideas />
     </main>
   );
 }
