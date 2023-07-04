@@ -12,9 +12,16 @@ const Form = ({ addIdea }) => {
       title: title,
       description: description
     };
-  
+    
+    if (title && description) {
+      addIdea(idea);
+      clearForm();
+    }
+  };
 
-    addIdea(idea);
+  const clearForm = () => {
+    setTitle('');
+    setDescription('');
   };
 
   return (
