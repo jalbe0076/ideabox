@@ -10,3 +10,9 @@
 p {
   padding: 1rem 0;
 }
+
+.card-container button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+}

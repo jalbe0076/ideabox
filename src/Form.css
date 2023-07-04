@@ -1,0 +1,12 @@
+.form-area {
+  /* width: 100vw; */
+  display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 2em 2.5em 0;
+}
+
+.form-area button, .form-area input {
+  width: 30%;
+  font-size: 1.3rem;
+}
