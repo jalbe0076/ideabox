@@ -1,0 +1,12 @@
+.card-container {
+  text-align: center;
+  padding: 1.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+p {
+  padding: 1rem 0;
+}
