@@ -1,4 +1,5 @@
-import Card from "./card";
+import Card from "./Card";
+import './Ideas.css'
 
 const Ideas = ({ ideas }) => {
   console.log(ideas)
@@ -15,9 +16,9 @@ const Ideas = ({ ideas }) => {
   });
 
   return (
-    <>
-      {card}
-    </>
+    <div className="idea-container">
+      {card} 
+    </div>
   );
 };
 

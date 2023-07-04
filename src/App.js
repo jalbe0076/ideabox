@@ -1,5 +1,5 @@
 import './App.css';
-import Ideas from './components/ideas';
+import Ideas from './components/Ideas';
 
 function App() {
   const dummyIdeas = [

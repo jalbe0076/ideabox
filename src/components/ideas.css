@@ -1,0 +1,11 @@
+.idea-container {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  margin: 2.5em;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap: 1.3em;
+}
